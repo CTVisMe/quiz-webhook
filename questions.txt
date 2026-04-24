@@ -1,0 +1,16 @@
+Topic 1. You are fitting a classification model to determine whether to offer a discount to a customer.  Your target is whether or not to offer the discount.  Name two models you can use in this scenario.  What metric can you use to evaluate these models against each other? 
+Topic 2. You run a business and are trying to decide whether to go into a particular market.  You build a model to determine the probability of success of the store, and will invest in a given market if the model gives you a high probability.  What is a false positive and a false negative in this scenario?   Explain how you would choose a threshold if you want to avoid false positives.  
+Topic 3. Can you explain a situation when you would want to use a lift curve instead of another evaluation curve? 
+Topic 4. Explain how building training and test sets are different when working with time series data. 
+Topic 5. You are given a set of raw text customer feedback notes for your new product.  You want to bucket the notes into different categories so that your management team can understand what topics customers are talking about.  What type of analysis would you suggest? What types of pre-processing would you do? 
+Topic 6. When calculating similarities for a k-nearest neighbor analysis, why is it important to normalize, or standardize, your features? 
+Topic 7. Lasso and Ridge regularization are both common methods for complexity control in regression.  Can you explain what makes them different? Describe the characteristic of Lasso that makes it desirable. 
+Topic 8. Can you explain a scenario where we would want to take a transformation of a feature in a regression model - such as taking the square or logarithm of a feature?  Describe what this does to the complexity of the model. 
+Topic 9. Explain in simple terms what overfitting is. Why it is a problem in machine learning models? (question_id: overfitting)
+Topic 10. Explain in simple terms why a data scientist might want to use principal components. What are the pros and cons of using that method? 
+Topic 11. If I have two numeric features, what is a good method to explore the data visually?  If there are a lot of points and I am worried about overplotting, what method can I use? 
+Topic 12. Name two methods for doing unsupervised learning, or clustering.  Explain the method how you extract clusters from a dendrogram which comes out of a hierarchical clustering exercise. 
+Topic 13. You are building a classification model.  Describe a scenario when you might not want to use the default value of 0.5 as the threshold to provide the prediction. 
+Topic 14. When exploring numeric data for a churn example, you discover some missing values. Describe 2 methods of dealing with the missing values in the data. What are the pros and cons of each? ((question_id: missing_values)
+
+When you have completed all five Topics, move directly to Phase 3 without waiting for input from the student. 
