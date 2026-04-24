@@ -3,11 +3,11 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const TOPIC_BANK = [
-  { id: 1, topic: "You are fitting a classification model to determine whether to offer a discount to a customer.  Your target is whether or not to offer the discount.  Name two models you can use in this scenario.  What metric can you use to evaluate these models against each other?", topic: "Classification" },
-  { id: 2, topic: "You run a business and are trying to decide whether to go into a particular market.  You build a model to determine the probability of success of the store, and will invest in a given market if the model gives you a high probability.  What is a false positive and a false negative in this scenario?   Explain how you would choose a threshold if you want to avoid false positives?", topic: "False Pos" },
-  { id: 3, topic: "Name two methods for doing unsupervised learning, or clustering.  Explain the method how you extract clusters from a dendrogram which comes out of a hierarchical clustering exercise.",  topic: "Clustering" },
-  { id: 4, topic: "Can you explain a situation when you would want to use a lift curve instead of another evaluation curve? ", topic: "LiftCurve" },
-  { id: 5, topic: "Explain how building training and test sets are different when working with time series data.", topic: "TimeSeries" }
+  { id: 1, topic: "You are fitting a classification model to determine whether to offer a discount to a customer.  Your target is whether or not to offer the discount.  Name two models you can use in this scenario.  What metric can you use to evaluate these models against each other?", category: "Classification" },
+  { id: 2, topic: "You run a business and are trying to decide whether to go into a particular market.  You build a model to determine the probability of success of the store, and will invest in a given market if the model gives you a high probability.  What is a false positive and a false negative in this scenario?   Explain how you would choose a threshold if you want to avoid false positives?", category: "False Pos" },
+  { id: 3, topic: "Name two methods for doing unsupervised learning, or clustering.  Explain the method how you extract clusters from a dendrogram which comes out of a hierarchical clustering exercise.",  category: "Clustering" },
+  { id: 4, topic: "Can you explain a situation when you would want to use a lift curve instead of another evaluation curve? ", category: "LiftCurve" },
+  { id: 5, topic: "Explain how building training and test sets are different when working with time series data.", category: "TimeSeries" }
 ];
 
 const TOPICS_PER_SESSION = 2;
