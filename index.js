@@ -7,10 +7,18 @@ const TOPIC_BANK = [
   { id: 2, topic: "You run a business and are trying to decide whether to go into a particular market.  You build a model to determine the probability of success of the store, and will invest in a given market if the model gives you a high probability.  What is a false positive and a false negative in this scenario?   Explain how you would choose a threshold if you want to avoid false positives?", category: "False Pos" },
   { id: 3, topic: "Name two methods for doing unsupervised learning, or clustering.  Explain the method how you extract clusters from a dendrogram which comes out of a hierarchical clustering exercise.",  category: "Clustering" },
   { id: 4, topic: "Can you explain a situation when you would want to use a lift curve instead of another evaluation curve? ", category: "LiftCurve" },
-  { id: 5, topic: "Explain how building training and test sets are different when working with time series data.", category: "TimeSeries" }
+    { id: 5, topic: "Explain how building training and test sets are different when working with time series data.", category: "TimeSeries" },
+    { id: 6, topic: "When calculating similarities for a k-nearest neighbor analysis, why is it important to normalize, or standardize, your features? ", category: "normalize" },
+    { id: 7, topic: "Lasso and Ridge regularization are both common methods for complexity control in regression.  Can you explain what makes them different? Describe the characteristic of Lasso that makes it desirable. ", category: "Regularization" },
+    { id: 8, topic: "Can you explain a scenario where we would want to take a transformation of a feature in a regression model - such as taking the square or logarithm of a feature?  Describe what this does to the complexity of the model.", category: "Transformation" },
+    { id: 9, topic: "Explain in simple terms what overfitting is. Why it is a problem in machine learning models?", category: "Overfitting" },
+    { id: 10, topic: "If I have two numeric features, what is a good method to explore the data visually? If there are a lot of points and I am worried about overplotting, what method can I use?", category: "Scatterplot" },
+    { id: 11, topic: "Name two methods for doing unsupervised learning, or clustering.  Explain the method how you extract clusters from a dendrogram which comes out of a hierarchical clustering exercise. .", category: "Unsupervised" },
+    { id: 12, topic: "You are building a classification model. Describe a scenario when you might not want to use the default value of 0.5 as the threshold to provide the prediction. ", category: "Threshold" },
+    { id: 13, topic: "When exploring numeric data for a churn example, you discover some missing values. Describe 2 methods of dealing with the missing values in the data. What are the pros and cons of each", category: "MissingValues" }
 ];
 
-const TOPICS_PER_SESSION = 2;
+const TOPICS_PER_SESSION = 5;
 
 function shuffleAndPick(array, count) {
   const shuffled = [...array];
