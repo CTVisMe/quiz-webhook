@@ -29,7 +29,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get("/topics", (req, res) => {
+app.get("/questions", (req, res) => {
   const { topic, count } = req.query;
   let pool = TOPIC_BANK;
 
