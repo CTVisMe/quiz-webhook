@@ -13,9 +13,10 @@ const TOPIC_BANK = [
     { id: 8, topic: "Can you explain a scenario where we would want to take a transformation of a feature in a regression model - such as taking the square or logarithm of a feature?  Describe what this does to the complexity of the model.", category: "Transformation" },
     { id: 9, topic: "Explain in simple terms what overfitting is. Why it is a problem in machine learning models?", category: "Overfitting" },
     { id: 10, topic: "If I have two numeric features, what is a good method to explore the data visually? If there are a lot of points and I am worried about overplotting, what method can I use?", category: "Scatterplot" },
-    { id: 11, topic: "Name two methods for doing unsupervised learning, or clustering.  Explain the method how you extract clusters from a dendrogram which comes out of a hierarchical clustering exercise. .", category: "Unsupervised" },
-    { id: 12, topic: "You are building a classification model. Describe a scenario when you might not want to use the default value of 0.5 as the threshold to provide the prediction. ", category: "Threshold" },
-    { id: 13, topic: "When exploring numeric data for a churn example, you discover some missing values. Describe 2 methods of dealing with the missing values in the data. What are the pros and cons of each", category: "MissingValues" }
+    { id: 11, topic: "What are two methods for doing unsupervised learning, or clustering?  When doing hierarchical clustering, how do you extract clusters from a dendrogram?", category: "Unsupervised" },
+    { id: 12, topic: "You are building a classification model. What is a scenario when you might not want to use the default value of 0.5 as the threshold to provide the prediction? What is the effect on precision if I set my threshold to a high number? ", category: "Threshold" },
+    { id: 13, topic: "When exploring numeric data for a churn example, you discover some missing values. What are 2 methods of dealing with the missing values in the data? What are the pros and cons of each?", category: "MissingValues" },
+    {id: 14, topic: "You are building a recommender system for a music service. Can you explain the concepts of exploitation and exploration in recommendations?  What are the pros and cons of each approach?"}
 ];
 
 const TOPICS_PER_SESSION = 5;
