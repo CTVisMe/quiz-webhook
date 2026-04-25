@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 const TOPIC_BANK = [
   { id: 1, topic: "You are fitting a classification model to determine whether to offer a discount to a customer.  Your target is whether or not to offer the discount.  Name two models you can use in this scenario.  What metric can you use to evaluate these models against each other?", category: "Classification" },
   { id: 2, topic: "You run a business and are trying to decide whether to go into a particular market.  You build a model to determine the probability of success of the store, and will invest in a given market if the model gives you a high probability.  What is a false positive and a false negative in this scenario?   Explain how you would choose a threshold if you want to avoid false positives?", category: "False Pos" },
-  { id: 3, topic: "Name two methods for doing unsupervised learning, or clustering.  Explain the method how you extract clusters from a dendrogram which comes out of a hierarchical clustering exercise.",  category: "Clustering" },
+    {id: 3, topic: "You are building a recommender system for a music service. Can you explain the concepts of exploitation and exploration in recommendations?  What are the pros and cons of each approach?", category: "ReccoSys"},
   { id: 4, topic: "Can you explain a situation when you would want to use a lift curve instead of another evaluation curve? ", category: "LiftCurve" },
     { id: 5, topic: "Explain how building training and test sets are different when working with time series data.", category: "TimeSeries" },
     { id: 6, topic: "When calculating similarities for a k-nearest neighbor analysis, why is it important to normalize, or standardize, your features? ", category: "normalize" },
@@ -15,8 +15,7 @@ const TOPIC_BANK = [
     { id: 10, topic: "If I have two numeric features, what is a good method to explore the data visually? If there are a lot of points and I am worried about overplotting, what method can I use?", category: "Scatterplot" },
     { id: 11, topic: "What are two methods for doing unsupervised learning, or clustering?  When doing hierarchical clustering, how do you extract clusters from a dendrogram?", category: "Unsupervised" },
     { id: 12, topic: "You are building a classification model. What is a scenario when you might not want to use the default value of 0.5 as the threshold to provide the prediction? What is the effect on precision if I set my threshold to a high number? ", category: "Threshold" },
-    { id: 13, topic: "When exploring numeric data for a churn example, you discover some missing values. What are 2 methods of dealing with the missing values in the data? What are the pros and cons of each?", category: "MissingValues" },
-    {id: 14, topic: "You are building a recommender system for a music service. Can you explain the concepts of exploitation and exploration in recommendations?  What are the pros and cons of each approach?"}
+    { id: 13, topic: "When exploring numeric data for a churn example, you discover some missing values. What are 2 methods of dealing with the missing values in the data? What are the pros and cons of each?", category: "MissingValues" }
 ];
 
 const TOPICS_PER_SESSION = 5;
